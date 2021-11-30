@@ -1,0 +1,49 @@
+.container{
+    text-align: center;
+    width: 700px;
+    height: 100vh;
+    margin-left: 400px;
+    border-radius: 23px;
+    background-color: aqua;
+}
+
+.col{
+    border-radius: 2px solid red;
+    text-align: center;
+
+}
+.btn{
+    background-color: cadetblue;
+    width: 100px;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#itemInput{
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 12px;
+
+}
+.btn:hover{
+    color: white;
+    background-color: red;
+}
+.nav{
+  background-color: rgb(223, 185, 153);
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  font-weight: bold;
+}
+.toDo{
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
